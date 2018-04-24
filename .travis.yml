@@ -2,5 +2,5 @@ language: node_js
 node_js:
   - "iojs"
   - "7"
-before_script:
-  - npm install
+before_install:
+  - npm i -g npm@4.4.1
