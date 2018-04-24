@@ -4,7 +4,7 @@
   "description": "Mathematic library for basic operation",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node tests/test"
   },
   "repository": {
     "type": "git",
