@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Mamix84/mathematic-lib.svg?branch=master)](https://travis-ci.org/Mamix84/mathematic-lib)
+
 # mathematic-lib
 
 Library to simplify basic mathematical operation beetween two or more operand (arrays)
