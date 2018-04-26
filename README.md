@@ -29,3 +29,12 @@ mathematicLib.multiplyArray(arrays) // => '100'
 ```
 
 See [spec](test/test.js).
+
+## Factorial usage
+
+```js
+var mathematicLib = require('mathematic-lib')
+mathematicLib.factorial(5) // => '120'
+```
+
+See [spec](test/test.js).
