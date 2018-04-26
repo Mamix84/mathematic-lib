@@ -86,3 +86,22 @@ exports.multiplyArray = function(num_a) {
 
 	return prod;
 }
+
+/**
+ * Calculate the factorial value of number in input
+ * @param {*} num_a 
+ */
+exports.factorial = function(num_a){
+	if(num_a < 0){
+		return undefined;
+	}else if(num_a === 0){
+		return 1;
+	}else {
+		var result = 1;
+		while(num_a !== 0){
+			result = result * num_a;
+			num_a --;
+		}
+		return result;
+	}
+}

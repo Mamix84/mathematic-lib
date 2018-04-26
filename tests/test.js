@@ -62,3 +62,10 @@ test("operations.multiply_array", function(assert) {
     assert.equals(operations.multiplyArray(a), 24)
     assert.end()
 })
+
+test("operations.factorial", function(assert) {
+    var a = 5
+
+    assert.equals(operations.factorial(a), 120)
+    assert.end()
+})
